@@ -18,7 +18,7 @@ Raspberry Pi Pico-W sends thermistor sensor data via MQTT to Azure IoT Hub, secu
   <img src="https://drive.google.com/uc?export=view&id=1HuYCrrVXsKVxPxQhQkZQGjpd0F0uSN1U" alt="Thermistor Data" width="450">
 </p>
 
-[GIF (sensor in action)](https://drive.google.com/file/d/1gQOngUJIabTnMTVs8f1T_hAjRBwwGU5r/view?usp=sharing)
+[GIF (sensor in action)](https://drive.google.com/file/d/1gQOngUJIabTnMTVs8f1T_hAjRBwwGU5r/view?usp=sharing) *loading 5-15 seconds
 
 ---
 
