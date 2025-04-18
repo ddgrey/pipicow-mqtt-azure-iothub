@@ -38,13 +38,13 @@ CLIENT_ID = 'rasp-pico'
 SAS_TOKEN = 'SharedAccessSignature sr=pipicotest.azure-devices.net%2Fdevices%2Frasp-pico&sig=*****&se=1744980603'
 
 def mqtt_connect():
-    # Downloading the DigiCert Certificate DER File from https://www.digicert.com/kb/digicert-root-certificates.htm
-
+    # DigiCert Certificate DER File (from https://www.digicert.com/kb/digicert-root-certificates.htm)
     # SSL/TLS encryption. Device uses the needed certificate (cryptographic credentials) ...
     # ... for authentication and encryption when connecting via MQTT over TLS.
     # Azure IoT Hub requires a certificate.
 
-    with open(r"C:\Program Files\SSL_TLScertificate\digicert.der", 'rb') as f:
+    # Loading certificate from Pico's filesystem
+    with open("digicert.der", 'rb') as f: # Path relative to Pico's root
         ssl_params = {'cadata': f.read()}
     
     client = MQTTClient(
