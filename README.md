@@ -7,7 +7,7 @@ Raspberry Pi Pico-W sends thermistor sensor data via MQTT to Azure IoT Hub, secu
 
 ---
 
-[**mqtt_connect_publish.py**](./pipicow-mqtt-azure-iothub/mqtt_connect_publish.py):
+[**mqtt_connect_publish.py**](./mqtt_connect_publish.py):
 
 1. **Temperature Sensor Initialization**  
 2. **Raspberry Pi Pico-W Wi-Fi Connection Setup**  
@@ -22,7 +22,7 @@ Raspberry Pi Pico-W sends thermistor sensor data via MQTT to Azure IoT Hub, secu
 
 ---
 
-[**retrieval-and-visualization.ipynb**](./pipicow-mqtt-azure-iothub/retrieval-and-visualization.ipynb):
+[**retrieval-and-visualization.ipynb**](./retrieval-and-visualization.ipynb):
 1. **Azure Storage Connection & Initialization**
 2. **Data Extraction & Processing**
 3. **Data Visualization with Matplotlib & Seaborn** (topmost picture)
